@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 17,
+    "fields": {
+      "sourceid": "ad4b024c-21d4-4d68-a0d4-d85c10d7bda2",
+      "user": null,
+      "name": "FFIEC",
+      "location": null,
+      "type": "API",
+      "metadata": null
+    }
+  }
+]

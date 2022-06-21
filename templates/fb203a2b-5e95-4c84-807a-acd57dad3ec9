@@ -1,0 +1,15 @@
+[
+  {
+    "model": "app.template",
+    "pk": 16,
+    "fields": {
+      "user": "",
+      "name": "D3 Bar",
+      "templateid": "fb203a2b-5e95-4c84-807a-acd57dad3ec9",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "template": "var data={\n  category : {{CategoryColumn|CategoryColumn}},\n  values : {{ValueColumn|ValueColumn}}\n};\n\nvar newData = [];\nfor (var i=0;i<data['category'].length;i++){\n  newData.push({\n   \tname: data['category'][i],\n    value: data['values'][i],\n  })\n}\n  \nvar barsWidth = 300,\n\tbarsHeight = 200,\n\taxisMargin = 100;\n\nvar chartHeight = barsHeight+axisMargin,\n\tchartWidth = barsWidth+axisMargin;\n\n \nvar chart = d3.select('#{{ContainerID}}').append('svg')\n\t.attr('width', '100%')\n\t.attr('height', '100%');\n\nvar yScale = d3.scaleLinear()\n\t.domain([0,d3.max(newData, function(d){\n\n\t\treturn d.value;\n\t})])\n\t.rangeRound([barsHeight, 0]);\n\n\nlet xScale = d3.scaleBand()\n\t.domain(\n\t\tnewData.map(\n\t\t\tfunction(d){\n\t\t\t\treturn d.name;\n\t\t\t}\n\t\t)\n\t)\n\t.rangeRound([0,barsWidth])\n\t.padding(0.1);\nvar bars = chart.append('g')\n\t.attr('id', \"bars-container\");\n\n\nbars.selectAll('.bar')\n\t.data(newData)\n\t.enter().append(\"rect\")\n\t\t.attr('class', \"bar\")\n\t\t.attr('x', function(d){\n\t\t\treturn xScale(d.name);\n\t\t})\n\t\t.attr('y', function(d){\n\t\t\treturn yScale(d.value); \n\t\t})\n\t\t.attr('width', xScale.bandwidth())\n\t\t.attr('height', function(d){return barsHeight-yScale(d.value);});\n\n\nbars.attr('transform', 'translate('+axisMargin+',0)');\n\nvar yAxis = chart.append('g')\n\t.attr('id','y-axis')\n\t.call(d3.axisLeft(yScale).ticks(10))\n\t\t.attr('transform', 'translate('+axisMargin+',0)');\n\nvar xAxis = chart.append('g')\n\t.attr('id', 'x-axis')\n\t.call(d3.axisBottom(xScale))\n\t.attr('transform', 'translate('+axisMargin+','+barsHeight+')')\n\t.selectAll(\"text\")\n\t\t.style(\"text-anchor\",'start')\n\t\t.attr('transform', 'rotate(45)');'",
+      "scripts": "https://d3js.org/d3.v4.min.js"
+    }
+  }
+]

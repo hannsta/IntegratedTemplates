@@ -1,0 +1,37 @@
+[
+  {
+    "model": "app.dataset",
+    "pk": 74,
+    "fields": {
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "user": "",
+      "datasetid": "11de4425-f4d2-47c4-8051-bbab5acfef96",
+      "name": "Widget Dataset",
+      "nodes": [
+        {
+          "id": "658e0b62-30aa-4cff-99dc-231bf0e25b6e",
+          "top": 167,
+          "left": 319,
+          "config": "0dafbc14-76ed-42d6-bd21-a8913fb60668",
+          "nodeType": "API Input",
+          "inputKeys": [],
+          "outputKeys": [
+            "071a67fe-9d1c-4369-8059-52e8ae1204c4"
+          ]
+        },
+        {
+          "id": "071a67fe-9d1c-4369-8059-52e8ae1204c4",
+          "top": 224,
+          "left": 501,
+          "config": "data = data",
+          "nodeType": "Custom Node",
+          "inputKeys": [
+            "658e0b62-30aa-4cff-99dc-231bf0e25b6e"
+          ],
+          "outputKeys": []
+        }
+      ]
+    }
+  }
+]

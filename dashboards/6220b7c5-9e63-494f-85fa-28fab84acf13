@@ -1,0 +1,20 @@
+[
+  {
+    "model": "app.dashboard",
+    "pk": 9,
+    "fields": {
+      "created": "2022-06-20",
+      "modified": "2022-06-20",
+      "user": "",
+      "name": "Nate Dash",
+      "dashboardid": "6220b7c5-9e63-494f-85fa-28fab84acf13",
+      "widgets": [
+        {
+          "uuid": "e54ae5a4-fefb-450f-88b6-7dd9fab60dee",
+          "width": 0.3746312684365782,
+          "height": 0.550125313283208
+        }
+      ]
+    }
+  }
+]

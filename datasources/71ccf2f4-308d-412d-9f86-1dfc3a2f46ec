@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 13,
+    "fields": {
+      "sourceid": "71ccf2f4-308d-412d-9f86-1dfc3a2f46ec",
+      "user": null,
+      "name": "Makeup",
+      "location": null,
+      "type": "API",
+      "metadata": null
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 14,
+    "fields": {
+      "sourceid": "d2be9a24-e453-438d-8dc2-d19eb748c91b",
+      "user": "",
+      "name": "testdataset.csv",
+      "location": "/uploads/testdataset.csv",
+      "type": "FILE",
+      "metadata": "{\"Date\": \"TEXT\", \"Group\": \"TEXT\", \"Repeating No\": \"NUMERIC\", \"String\": \"TEXT\", \"Trend No\": \"NUMERIC\", \"Dec No\": \"NUMERIC\"}"
+    }
+  }
+]

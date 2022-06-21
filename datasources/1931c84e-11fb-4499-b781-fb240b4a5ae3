@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 37,
+    "fields": {
+      "sourceid": "1931c84e-11fb-4499-b781-fb240b4a5ae3",
+      "user": "",
+      "name": "NEPA.csv",
+      "location": "/uploads/NEPA.csv",
+      "type": "FILE",
+      "metadata": "{\"ADMIN_ORG\": \"NUMERIC\", \"ADMIN_ORG_NAME\": \"TEXT\", \"RMU_ID\": \"TEXT\", \"RMU_NAME\": \"TEXT\", \"RMU_STATUS\": \"TEXT\", \"NEPA_DECISION_TYPE\": \"TEXT\", \"NEPA_DECISION_DATE_APPROVED\": \"TEXT\", \"SUFF_REVIEW_DATE\": \"TEXT\", \"NEPA_SCHEDULE\": \"NUMERIC\", \"NEPA_YR\": \"NUMERIC\"}"
+    }
+  }
+]

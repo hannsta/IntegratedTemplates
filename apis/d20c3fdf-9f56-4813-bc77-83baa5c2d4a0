@@ -1,0 +1,24 @@
+[
+  {
+    "model": "app.apiconnection",
+    "pk": 15,
+    "fields": {
+      "connectionid": "d20c3fdf-9f56-4813-bc77-83baa5c2d4a0",
+      "sourceid": "71ccf2f4-308d-412d-9f86-1dfc3a2f46ec",
+      "url": "http://makeup-api.herokuapp.com/api/v1/products.json",
+      "parameters": [
+        {
+          "idx": 0,
+          "key": "brand",
+          "value": "maybelline"
+        },
+        {
+          "idx": 1,
+          "key": "product_category",
+          "value": "lipstick"
+        }
+      ],
+      "resultobject": null
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "model": "app.apiconnection",
+    "pk": 20,
+    "fields": {
+      "connectionid": "1fb5bcc4-dbd3-4957-b41f-b6c7604f6832",
+      "sourceid": "0dafbc14-76ed-42d6-bd21-a8913fb60668",
+      "url": "http://localhost:8000/get_widgets?type=full",
+      "parameters": "",
+      "resultobject": ""
+    }
+  }
+]

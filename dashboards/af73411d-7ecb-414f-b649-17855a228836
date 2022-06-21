@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.dashboard",
+    "pk": 3,
+    "fields": {
+      "created": "2022-05-30",
+      "modified": "2022-05-30",
+      "user": "",
+      "name": "{}",
+      "dashboardid": "af73411d-7ecb-414f-b649-17855a228836",
+      "widgets": []
+    }
+  }
+]

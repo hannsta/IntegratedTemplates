@@ -1,0 +1,27 @@
+[
+  {
+    "model": "app.dashboard",
+    "pk": 7,
+    "fields": {
+      "created": "2022-06-04",
+      "modified": "2022-06-04",
+      "user": "",
+      "name": "My Dashboard",
+      "dashboardid": "b577be9b-e3b6-48ce-82f5-1a7e0c604588",
+      "widgets": [
+        {
+          "uuid": "ef4da97f-e451-46fa-bebe-52e2167df065",
+          "width": 0.7314009661835749,
+          "height": 0.48687350835322196
+        },
+        {
+          "top": 0.6050119331742243,
+          "left": 0.24057971014492754,
+          "uuid": "ce73ab2b-0088-41f7-baa5-815cf0f18aa5",
+          "width": 0.5,
+          "height": 0.25
+        }
+      ]
+    }
+  }
+]

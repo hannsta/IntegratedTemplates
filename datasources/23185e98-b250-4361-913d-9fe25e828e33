@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 20,
+    "fields": {
+      "sourceid": "23185e98-b250-4361-913d-9fe25e828e33",
+      "user": "",
+      "name": "Operator Information Report.csv",
+      "location": "/uploads/Operator Information Report.csv",
+      "type": "FILE",
+      "metadata": "{\"Office Cd\": \"TEXT\", \"Field Office Name\": \"TEXT\", \"Authorization Number\": \"NUMERIC\", \"Releasability Status\": \"TEXT\", \"Authorization Status\": \"TEXT\", \"Auth Operator Display Name\": \"TEXT\", \"Address 1\": \"TEXT\", \"Oper Address 2\": \"TEXT\", \"Oper City\": \"TEXT\", \"State\": \"TEXT\", \"Oper Postal Code\": \"TEXT\", \"Oper Phone\": \"TEXT\", \"WO_OFF_D\": \"TEXT\", \"Auth Id\": \"NUMERIC\", \"STATE_OFF_D\": \"TEXT\", \"DISTRICT_OFF_D\": \"TEXT\", \"FIELD_OFF_D\": \"TEXT\", \"FSNM_OFF_D\": \"TEXT\"}"
+    }
+  }
+]

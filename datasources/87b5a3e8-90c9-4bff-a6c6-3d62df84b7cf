@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 18,
+    "fields": {
+      "sourceid": "87b5a3e8-90c9-4bff-a6c6-3d62df84b7cf",
+      "user": null,
+      "name": "NYTimes Articles",
+      "location": null,
+      "type": "API",
+      "metadata": null
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "model": "app.template",
+    "pk": 15,
+    "fields": {
+      "user": "",
+      "name": "Highcharts",
+      "templateid": "ec9e90c1-e960-4990-b9e3-d2c9953f98de",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "template": "var catColumn = {{Dimension|CategoryColumn}};\nvar data={\n  category : catColumn,\n  values : {{Metric|ValueColumn}}\n};\nvar newData = [];\nfor (var i=0;i<data['category'].length;i++){\n  newData.push({\n   \tname: data['category'][i],\n    y: data['values'][i],\n  })\n}\n  \nnewData = newData.sort(function(a, b){\n    return b.y - a.y;\n});\nconsole.log(newData,\"newData\");\nnewData = newData.slice(0,15);\n\nHighcharts.chart('{{ContainerID}}', {\n    chart: {\n      plotBackgroundColor: null,\n      plotBorderWidth: null,\n      plotShadow: false,\n      type: {{ChartType|MultiSelect|pie,bar,column}}\n    },\n\ttitle: null,                 \n    xAxis: {\n      categories: catColumn,\n        labels: {\n          enabled: true\n        }\n    },\n    tooltip: {\n      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'\n    },\n    accessibility: {\n      point: {\n        valueSuffix: ''\n      }\n    },\n    legend:{ enabled:false },\n    plotOptions: {\n      pie: {\n        allowPointSelect: true,\n        cursor: 'pointer',\n        dataLabels: {\n          enabled: true,\n          format: '<b>{point.name}</b>: {point.percentage:.1f}'\n        }\n      }\n    },\n    series: [{\n      name: selectedColumns['abc'],\n      colorByPoint: true,\n      data: newData\n    }]\n  });",
+      "scripts": "https://code.highcharts.com/highcharts.js"
+    }
+  }
+]

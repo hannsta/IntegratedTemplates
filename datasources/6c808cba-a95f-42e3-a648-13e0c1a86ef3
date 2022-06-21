@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 35,
+    "fields": {
+      "sourceid": "6c808cba-a95f-42e3-a648-13e0c1a86ef3",
+      "user": "",
+      "name": "2021Permits.csv",
+      "location": "/uploads/2021Permits.csv",
+      "type": "FILE",
+      "metadata": "{\"MANAGING_ORG\": \"NUMERIC\", \"MANAGING_ORG_NAME\": \"TEXT\", \"PERMIT_CN\": \"NUMERIC\", \"PERMIT_ID\": \"TEXT\", \"ISSUE_DATE\": \"TEXT\", \"TERMINATION_DATE\": \"TEXT\", \"PERMIT_STATUS\": \"TEXT\", \"LINE_TYPE\": \"TEXT\", \"GRZ_YEAR\": \"NUMERIC\", \"LIVESTOCK_NBR\": \"NUMERIC\", \"LIVESTOCK_KIND\": \"TEXT\", \"FROM_DATE\": \"TEXT\", \"TO_DATE\": \"TEXT\", \"AUM\": \"NUMERIC\", \"HEAD_MONTHS\": \"NUMERIC\", \"RMU_CN\": \"NUMERIC\", \"RMU_ID\": \"TEXT\", \"RMU_NAME\": \"TEXT\", \"Unnamed: 18\": \"NUMERIC\", \"Unnamed: 19\": \"NUMERIC\", \"RMU_CN.1\": \"NUMERIC\", \"AUM.1\": \"NUMERIC\", \"HM\": \"NUMERIC\"}"
+    }
+  }
+]

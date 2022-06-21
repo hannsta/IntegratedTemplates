@@ -1,0 +1,25 @@
+[
+  {
+    "model": "app.widget",
+    "pk": 119,
+    "fields": {
+      "user": "",
+      "name": "My Widget",
+      "widgetid": "050ff87d-eb71-4c71-97f8-31f2ba3ed6a4",
+      "templateid": "0ca66c5e-4bc4-4efb-8887-25b2b795629e",
+      "sourceid": "11de4425-f4d2-47c4-8051-bbab5acfef96",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "widget": {
+        "Data": {
+          "type": "ColumnListRecords",
+          "value": {},
+          "hidden": false
+        }
+      },
+      "sourceFilters": {},
+      "runtimeFilters": [],
+      "runtimeFilterDefs": {}
+    }
+  }
+]

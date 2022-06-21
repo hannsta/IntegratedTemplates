@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 28,
+    "fields": {
+      "sourceid": "c5c044a4-030e-451b-9984-ffcc2c79c548",
+      "user": "",
+      "name": "Permit Schedule Information Report.csv",
+      "location": "/uploads/Permit Schedule Information Report.csv",
+      "type": "FILE",
+      "metadata": "{\"Auth Office Name\": \"TEXT\", \"Authorization Number\": \"NUMERIC\", \"Auth Effective Date\": \"TEXT\", \"Auth Expiration Date\": \"TEXT\", \"Authorization Authority\": \"TEXT\", \"C\": \"TEXT\", \"Allotment Name\": \"TEXT\", \"Livestock Number\": \"NUMERIC\", \"Auth Sched Allot Number\": \"TEXT\", \"Auth Sched Livestock Kind\": \"TEXT\", \"Period Begin Date\": \"TEXT\", \"Period End Date\": \"TEXT\", \"Auth Sched Type Use\": \"TEXT\", \"Public Lnd Pct\": \"NUMERIC\", \"AUMs\": \"NUMERIC\", \"Unnamed: 15\": \"TEXT\", \"Unnamed: 16\": \"TEXT\", \"Unnamed: 17\": \"TEXT\", \"Unnamed: 18\": \"TEXT\", \"Unnamed: 19\": \"TEXT\", \"Unnamed: 20\": \"TEXT\", \"Unnamed: 21\": \"TEXT\"}"
+    }
+  }
+]

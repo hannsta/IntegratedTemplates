@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 36,
+    "fields": {
+      "sourceid": "9a29c56b-f431-4792-9459-defb25235732",
+      "user": "",
+      "name": "Forest.csv",
+      "location": "/uploads/Forest.csv",
+      "type": "FILE",
+      "metadata": "{\"FID\": \"NUMERIC\", \"RANGERDIST\": \"TEXT\", \"REGION\": \"NUMERIC\", \"FORESTNUMB\": \"NUMERIC\", \"DISTRICTNU\": \"NUMERIC\", \"DISTRICTOR\": \"NUMERIC\", \"FORESTNAME\": \"TEXT\", \"DISTRICTNA\": \"TEXT\", \"GIS_ACRES\": \"NUMERIC\", \"SHAPE_AREA\": \"NUMERIC\", \"SHAPE_LEN\": \"NUMERIC\"}"
+    }
+  }
+]

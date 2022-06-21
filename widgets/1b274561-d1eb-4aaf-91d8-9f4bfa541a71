@@ -1,0 +1,35 @@
+[
+  {
+    "model": "app.widget",
+    "pk": 117,
+    "fields": {
+      "user": "",
+      "name": "My Widget",
+      "widgetid": "1b274561-d1eb-4aaf-91d8-9f4bfa541a71",
+      "templateid": "ec9e90c1-e960-4990-b9e3-d2c9953f98de",
+      "sourceid": "7e1f4122-bb4b-4721-ae28-0620a1fafa0d",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "widget": {
+        "Metric": {
+          "type": "ValueColumn",
+          "value": {},
+          "hidden": false
+        },
+        "ChartType": {
+          "type": "MultiSelect",
+          "value": "pie",
+          "hidden": false
+        },
+        "Dimension": {
+          "type": "CategoryColumn",
+          "value": {},
+          "hidden": false
+        }
+      },
+      "sourceFilters": {},
+      "runtimeFilters": [],
+      "runtimeFilterDefs": {}
+    }
+  }
+]

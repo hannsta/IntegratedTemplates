@@ -1,0 +1,15 @@
+[
+  {
+    "model": "app.template",
+    "pk": 14,
+    "fields": {
+      "user": "",
+      "name": "AG Grid",
+      "templateid": "0ca66c5e-4bc4-4efb-8887-25b2b795629e",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "template": "var data = {{Data|ColumnListRecords}};\n\nconsole.log(\"Dataset\",data);\n\nconst columnDefs = [];\n\nfor (var key  of Object.keys(data[0])){\n  columnDefs.push({field:key});\n}\n\nconst gridOptions = {\n  columnDefs: columnDefs,\n  rowData: data,\n  'domLayout': 'normal',\n  'weight':'300px',\n  onGridReady: (event) => event.api.sizeColumnsToFit(),\n};\n\n\nconst gridDiv = document.getElementById('{{ContainerID}}');\ngridDiv.style.height = '100%';\ngridDiv.style.width = '100%';\ngridDiv.className = 'ag-theme-balham';\nnew agGrid.Grid(gridDiv, gridOptions);",
+      "scripts": "https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"
+    }
+  }
+]

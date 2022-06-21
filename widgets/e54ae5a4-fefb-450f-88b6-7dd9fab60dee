@@ -1,0 +1,48 @@
+[
+  {
+    "model": "app.widget",
+    "pk": 116,
+    "fields": {
+      "user": "",
+      "name": "Ratings By Category",
+      "widgetid": "e54ae5a4-fefb-450f-88b6-7dd9fab60dee",
+      "templateid": "ec9e90c1-e960-4990-b9e3-d2c9953f98de",
+      "sourceid": "71ccf2f4-308d-412d-9f86-1dfc3a2f46ec",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "widget": {
+        "Metric": {
+          "type": "ValueColumn",
+          "value": {
+            "rating": {
+              "agg": "sum",
+              "type": "NUMERIC"
+            }
+          },
+          "hidden": false
+        },
+        "ChartType": {
+          "type": "MultiSelect",
+          "value": "pie",
+          "hidden": false
+        },
+        "Dimension": {
+          "type": "CategoryColumn",
+          "value": {
+            "product_type": {
+              "agg": "DEFAULT",
+              "type": "none"
+            }
+          },
+          "hidden": false
+        }
+      },
+      "sourceFilters": {
+        "brand": "maybelline",
+        "product_category": ""
+      },
+      "runtimeFilters": [],
+      "runtimeFilterDefs": {}
+    }
+  }
+]

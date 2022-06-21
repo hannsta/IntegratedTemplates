@@ -1,0 +1,19 @@
+[
+  {
+    "model": "app.apiconnection",
+    "pk": 19,
+    "fields": {
+      "connectionid": "d1275791-9929-4406-a539-2f125042c9a6",
+      "sourceid": "87b5a3e8-90c9-4bff-a6c6-3d62df84b7cf",
+      "url": "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json",
+      "parameters": [
+        {
+          "idx": 0,
+          "key": "api-key",
+          "value": "3UJGHwpmaVDCE3cgpfGJC3idz5CEnee2"
+        }
+      ],
+      "resultobject": "results"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "model": "app.datasource",
+    "pk": 38,
+    "fields": {
+      "sourceid": "0dafbc14-76ed-42d6-bd21-a8913fb60668",
+      "user": null,
+      "name": "Widgets",
+      "location": null,
+      "type": "API",
+      "metadata": null
+    }
+  }
+]

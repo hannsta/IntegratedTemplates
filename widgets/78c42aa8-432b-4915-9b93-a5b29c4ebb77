@@ -1,0 +1,45 @@
+[
+  {
+    "model": "app.widget",
+    "pk": 115,
+    "fields": {
+      "user": "",
+      "name": "Test Data Pie",
+      "widgetid": "78c42aa8-432b-4915-9b93-a5b29c4ebb77",
+      "templateid": "ec9e90c1-e960-4990-b9e3-d2c9953f98de",
+      "sourceid": "d2be9a24-e453-438d-8dc2-d19eb748c91b",
+      "created": "2022-06-18",
+      "modified": "2022-06-18",
+      "widget": {
+        "Metric": {
+          "type": "ValueColumn",
+          "value": {
+            "Repeating No": {
+              "agg": "sum",
+              "type": "NUMERIC"
+            }
+          },
+          "hidden": false
+        },
+        "ChartType": {
+          "type": "MultiSelect",
+          "value": "pie",
+          "hidden": false
+        },
+        "Dimension": {
+          "type": "CategoryColumn",
+          "value": {
+            "Group": {
+              "agg": "DEFAULT",
+              "type": "none"
+            }
+          },
+          "hidden": false
+        }
+      },
+      "sourceFilters": {},
+      "runtimeFilters": [],
+      "runtimeFilterDefs": {}
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "model": "app.apiconnection",
+    "pk": 18,
+    "fields": {
+      "connectionid": "d35b286d-fa3e-4a50-aaab-b54914b8fbe5",
+      "sourceid": "ad4b024c-21d4-4d68-a0d4-d85c10d7bda2",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/nationwide/aggregations",
+      "parameters": "",
+      "resultobject": null
+    }
+  }
+]
